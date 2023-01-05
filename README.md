@@ -8,18 +8,14 @@ Sistema de gerenciamento de videos para E-commerce, trabalho proposto pela FIAP,
 
 # Arquivos
 
-* comando DRL.sql - varios requerimentos de 'select' para identificar nas tabelas.
+* star schema.sql - modelo de star schema.
 
-* comando DDL.sql - vai criar todas as tabelas e sequences.
+* dicionario de dados.doc - dicionario de dados das tabelas criadas
 
-* comando DML.sql - scrip Que vai realizar drop de todas as tabelas e sequences, depois vai criar todas as tabelas e sequences e por fim vai fazer a população de todas as tabelas.
+* cria.sql - vai criar todas as tabelas e sequences.
 
-* cursor.sql - é um cursor Que realiza a população da tabela SAC ocorrência.
+* apaga.sql - vai apagar todas as tabelas e sequences.
 
-* validaçao CPF.sql - é uma stored procedure Que realiza a validação de um CPF quando ela é chamada.
 
-* trigger validaçao CPF.sql - é uma trigger for each row Que é acionada sempre que uma tentativa de insert ou update de cpf é realizada, a trigger chama a procedure de validação de cpf.
 
-* modelo_fisico.pdf - Modelagem fisica do banco de dados.
 
-* modelo_logico.pdf - Modelagem logica do banco de dados.
